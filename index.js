@@ -39,7 +39,7 @@ if (score == 5) {
     quiz("Will Black Window die in Infinity war? ", "no")
     quiz("Thanos was first seen in which Marvel Movie? ", "Guardians of Galaxy")
     quiz("What is Captain America’s shield made of? ","Vibranium");
-    quiz("Which of the infinity stones is hidden on Vormir?","Soul Stone");
+    quiz("Which of the infinity stones is hidden on Vormir? ","Soul Stone");
     if (score == 10) {
       console.log("Quiz is Done.Your a crazy Marvel Fan.")
     }
@@ -47,7 +47,7 @@ if (score == 5) {
       console.log("Your score is below 5.Better luck next time")
     }
     else {
-      console.log("Score is",score)
+      console.log("Score is", score)
       console.log("Better luck next time")
     }
   }
